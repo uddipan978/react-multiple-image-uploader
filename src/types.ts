@@ -27,6 +27,7 @@ interface DataSource {
 }
 
 interface RIUploaderProps {
+  isOpen: boolean;
   onUpload: (e) => void;
   onSelect: (e) => void;
   onRemove: (e) => void;
